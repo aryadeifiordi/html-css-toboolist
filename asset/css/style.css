@@ -5,3 +5,9 @@ body {
     font-size: x-large;
     vertical-align: baseline;
 }
+.container{
+    width: 200px;
+    margin: auto;
+    background-color:white;
+
+}
