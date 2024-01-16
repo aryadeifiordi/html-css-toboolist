@@ -1,3 +1,7 @@
 body {
     background-color: lightgrey;
 }
+#logo_text{
+    font-size: x-large;
+    vertical-align: baseline;
+}
