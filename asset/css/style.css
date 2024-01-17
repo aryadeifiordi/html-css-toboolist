@@ -1,13 +1,13 @@
-body {
-    background-color: lightgrey;
-}
-#logo_text{
-    font-size: x-large;
-    vertical-align: baseline;
-}
-.container{
-    width: 200px;
-    margin: auto;
-    background-color:white;
+:root{
+    --tobo-dark: #000000;
+    --tobo-page-bg: #b1b2b5;
+    --tobo-light: #f6f8f9;
+    --tobo-primary: #2f8ee1;
+    --tobo-goals-tag-bg: #b758ee;
+    --tobo recruiting-tag-bg: #00caaa;
 
+
+}
+body {
+    background-color: var(--tobo-page-bg);
 }
