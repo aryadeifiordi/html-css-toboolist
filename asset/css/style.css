@@ -1,13 +1,108 @@
-body {
-    background-color: lightgrey;
-}
-#logo_text{
-    font-size: x-large;
-    vertical-align: baseline;
-}
-.container{
-    width: 200px;
-    margin: auto;
-    background-color:white;
+/* #region common */
+root{
+    --tobo-dark: #051831FF;
+    --tobo-lighter: #ffffffFF;
+    --tobo-light: #D3D6D8;
+    --tobo-page-bg: #f6f8f9FF;
+    --tobo-primary: #46ADF0;
+    --tobo-goals-tag-bg: #9c73e5FF;
+    --tobo-recruiting-tag-bg: #64C1A8;
+    --tobo-sales-tag-bg: #B0C926;
+    --tobo-recruiting-tag-bg: #ed5f54FF;
+    --tobo-danger: #ED5F54;
+
+
+
+
 
 }
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: var(--tobo-page-bg)
+    font-family: 'Roboto', sans-serif;
+    }
+
+    /* #endregion common */
+
+    /* °region Utilities */
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+.card{
+    background-color: var(--tobo-dark);
+    margin: 2rem 0;
+    border-radius: 1.25rem;
+    box-shadow: 0 10 10px var(--tobo-dark)
+
+}
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1 rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: none;
+
+
+}
+.btn-primary{
+    background-color: var(--tobo-primary)
+    color: var(--tobo-light)
+
+.btn-outline{
+    border: 1px solid var(--tobo-light)
+    color: var(--tobo-lighter)
+
+}  
+
+
+}
+.top{
+    padding: 1rem 2rem;
+    border-bottom: 2px solid var(--tobo-page-bg)
+
+}
+.bottom{
+    padding: 1rem 2rem;
+
+}
+
+
+
+
+
+      /* °endregion Utilities */
+
+
+
+
+
+    
+
+    /* #region Header */
+#site_header{
+        blackground-color: var(--tobo-lighter);
+        box-shadow: 0 0 5px var(--tobo-light)
+        padding: 0.5rem 1rem;
+
+    }
+.logo_img{
+    vertical_align: middle;
+}
+.logo_text{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+
+
+}    
+
+
+
+
+    /* #endregion Header */
